@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Frases</title>
+    <style>
+        .container {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+}
+
+        .row {
+          display: flex;
+          justify-content: center;
+          margin-bottom: 20px;
+        }
+        label#frase {
+          margin-left: 10px;
+          margin-right: 10px;
+        }
+       
+        button#button {
+         margin-left: 20px;
+        }
+
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <label id="label" for="button">Presiona el botón para obtener tu frase del día</label>
+        
+            <button id="button" type="button">Botón</button>
+        </div>
+        <br>
+        <div class="row">
+            <fieldset>
+            <label id="frase"></label>
+        </fieldset>
+        </div>
+    </div>
+
+    <script src="index.js"></script>
+</body>
+</html>
